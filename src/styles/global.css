@@ -1,0 +1,117 @@
+.product-container {
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.product-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ede8f5;
+  /* background-image: url("../../public/assets/img/1000_F_218745082_uQoHCDchI1bF6yVm9xWz96SAu9kUuU0f.jpg"); */
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+h1 {
+  margin-bottom: 30px;
+  display: flex;
+  color: #6a5294;
+  justify-content: center;
+}
+
+.product-input {
+  text-align: center;
+  padding: 15px 10px;
+  margin-bottom: 25px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 1px 1px 6px #996da27a;
+}
+
+.add-button {
+  width: 50%;
+  text-align: center;
+  padding: 15px 10px;
+  background-color: #6a5294;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #ccbce7;
+}
+.product-link a {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+/* .product-link { */
+  /* display: flex;
+  width: 14%;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-end;
+  margin: 0px 5px 5px 800px; */
+/* } */
+
+.product-form{
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+.product-input-button {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin: 0 25%;
+}
+#main-heading{
+  color: #a991c9;
+  font-weight: 700;
+}
+nav.navbar.navbar-expand.navbar-light.bg-primary {
+  height: 15%;
+  background-color: #6a5294 !important;
+}
+a.navbar-brand {
+  font-size: xxx-large;
+}
+.me-auto.navbar-nav {
+  font-size: x-large;
+}
+a.nav-link {
+  padding: 0px 20px !important;
+}
+nav.navbar.navbar-expand.navbar-light.bg-light {
+  background-color: #ccbce7 !important;
+}
+.text-center.p-3 {
+  background-color: #ccbce7 !important;
+}
+footer.bg-primary.text-white.text-center.text-lg-left {
+  background-color: #6a5294 !important;
+}
+.table-container{
+  margin-top: 20px;
+}
+/* ==========================================================for model */
+.modal-header {
+  background-color: #e8dcff;
+}
